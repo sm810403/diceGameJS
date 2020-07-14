@@ -18,24 +18,74 @@ body {
     width: 800px;
     height: 600px;
     border-radius: 15px;
-    box-shadow: 0 5px 10px white;
-
-    
+    box-shadow: 0 5px 10px white;      
 }
 h1 {
     padding: 20px;
     font-family: 600px;
+    cursor:pointer;
 }
 .container {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 400px;
-    margin: 10px auto;   
+    height: 330px;
+    margin: auto;  
+    position: relative; 
 }
-.panels {
+.player-panel-0, .player-panel-1 {
     flex-basis: 300px;
+    margin: 2px auto;
 }
-
+.players {
+    font-size: 40px;
+    padding: 10px;
+}
+.sums {
+    font-size: 80px;
+    font-family: 600px;
+}
+.currents{
+    font-size: 35px;
+    padding: 10px;
+}
+.box {
+    margin: 30px auto 0;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    border-radius: 10px;
+}
+.text {
+    padding: 10px;
+}
+.dices {
+    position: absolute;
+    background: black;
+    width: 70px;
+    height: 70px;
+    top: 40%;
+    border-radius: 10px;;
+}
+.dice1 {
+    top: 10%;
+}
+.button-box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+    
+}
+.roll, .hold {
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    margin: 3px 0;
+    font-size: 22px;
+}
+.active {
+    background-color: white;
+    text-shadow: 0 5px 10px lightcoral;
+}
 
 
