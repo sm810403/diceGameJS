@@ -87,5 +87,21 @@ h1 {
     background-color: white;
     text-shadow: 0 5px 10px lightcoral;
 }
-
-
+.scal {
+    /* transition: all .4s ease-out; */
+    animation: zoomInOut .4s ease-out; 
+}
+@keyframes zoomInOut {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+}
