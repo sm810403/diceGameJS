@@ -87,5 +87,4 @@ document.querySelector('.newGame').addEventListener('click', function(){
     document.querySelector('.sum-score-1').textContent = bigScore[activePlayer];
     document.querySelector('.player-panel-0').classList.remove('active');
     document.querySelector('.player-panel-1').classList.remove('active');
-    
 })
